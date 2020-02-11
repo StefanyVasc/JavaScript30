@@ -27,7 +27,7 @@ _Preview com a animação do clique_
 > Relógio analógico que indica a hora atual e atualiza seus ponteiros normalmente.
 
 - Friends with CSS
-- Fundamentals
+- Fundamentals concepts
 
 ### Novos aprendizados com esse projeto
 
@@ -46,6 +46,9 @@ _Preview relógio_
 
 > Atualizar dinâmicamento o CSS ao mexer com elementos da tela.
 
+- Friends with CSS
+- Fun + experimentals
+
 ### Novos aprendizados com esse projeto
 
 - input `type="color"` esse tipo de input abre um color pick
@@ -63,3 +66,19 @@ _Preview antes de modificar os inputs_
 
 _Preview quando os inputs foram modificados_
 ![Preview normal](03_JS_and_Variable_CSS/img/preview-modificado.png)
+
+## Dia 04 - Array Cardio Day 01
+
+> entendendo arrays em javascript e seus métodos
+
+- Fundamentals concepts
+
+### Novos aprendizados com esse projeto
+
+- `console.table` visualização dos dados em formato de tabela no console
+- métodos
+  - `filter()` - cria um novo Array contendo todos os elementos para os quais a função fornecida retorna verdadeiro 
+  - `map()` - cria um novo Array contendo os resultados da aplicação da função a todos elementos do Array 
+  - `sort()` - classifica o Array sem copiá-lo, opcionalmente usando um argumento comparador 
+  - `reduce()` - aplica uma função simultaneamente para dois valores do Array (da
+esquerda para a direita) de forma a reduzi-los a um valor único 
