@@ -29,7 +29,7 @@ _Preview com a animação do clique_
 - Friends with CSS
 - Fundamentals
 
-### Novos aprendizados com esse
+### Novos aprendizados com esse projeto
 
 - `setInterval` é uma função temporizadora embutida que pode ser usada para chamar funções de retorno (callback functions) após um determinado tempo.
 
@@ -41,3 +41,25 @@ _Preview com a animação do clique_
 
 _Preview relógio_
 ![Preview relógio](02_JS_and_CSS_Clock/img/clock.png)
+
+## Dia 03 - Update CSS variables with JS
+
+> Atualizar dinâmicamento o CSS ao mexer com elementos da tela.
+
+### Novos aprendizados com esse projeto
+
+- input `type="color"` esse tipo de input abre um color pick
+- Modificando uma variável no css
+
+  ```javascript
+  document.documentElement.style.setProperty(
+    `--${this.name}`,
+    this.value + suffix
+  );
+  ```
+
+_Preview antes de modificar os inputs_
+![Preview normal](03_JS_and_Variable_CSS/img/preview-antes.png)
+
+_Preview quando os inputs foram modificados_
+![Preview normal](03_JS_and_Variable_CSS/img/preview-modificado.png)
