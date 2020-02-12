@@ -82,3 +82,21 @@ _Preview quando os inputs foram modificados_
   - `sort()` - classifica o Array sem copiá-lo, opcionalmente usando um argumento comparador 
   - `reduce()` - aplica uma função simultaneamente para dois valores do Array (da
 esquerda para a direita) de forma a reduzi-los a um valor único 
+
+## Dia 05 - Flex Panel Galery With JS
+
+> Painel usando display flex com animações ao clicar em cada painel
+
+- DOM & Interface
+- Friends with CSS
+
+### Novos aprendizados com esse projeto
+
+- `flex: 1;` ao fazer o espaço sobrando no container é redistruibuido igualmente entre os filhos.
+- Um elemento filho pode ser também um container flex;
+
+_Preview antes de clicar em um painel_
+![Preview normal](05_Flex_Panel_Galery/img/preview-noActive.jpg)
+
+_Preview depois de clicar em um painel_
+![Preview normal](05_Flex_Panel_Galery/img/preview-active.jpg)
