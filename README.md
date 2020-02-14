@@ -100,3 +100,38 @@ _Preview antes de clicar em um painel_
 
 _Preview depois de clicar em um painel_
 ![Preview normal](05_Flex_Panel_Galery/img/preview-active.jpg)
+
+
+## Dia 06 - Ajax Type Ahead
+
+> Busca assincrona num array que contém as cidades ou estados, você buscando por cidades ou estados qualquer letra ele já retorna algo.
+
+- DOM & Interface
+
+
+### Novos aprendizados com esse projeto
+
+- *Ajax, o que é?*
+  - AJAX significa Asynchronous JavaScript and XML, ou JavaScript e XML Assíncronos. **Ele é um conjunto de técnicas de desenvolvimento voltado para a web que permite que aplicações trabalhem de modo assíncrono, processando qualquer requisição ao servidor em segundo plano**.
+  - Enquanto o HTML é utilizado para exibir dados, o XML os armazena e transmite.
+
+- *Como o Ajax funciona?*
+  - **HTML/XHTML** para linguagem principal e **CSS** para a apresentação.
+  - **O Document Object Model (DOM)** para exibição dinâmica dos dados e interação.
+  - **XML** para a troca de dados e XSLT para a manipulação. Muitos desenvolvedores começaram a substituir pelo JSON por ser mais semelhante ao JavaScript.
+  - O objeto **XMLHttpRequest** para a comunicação assíncrona.
+  - Finalmente, a linguagem de programação **JavaScript** para juntar todas essas tecnologias.
+
+- *Modelo Ajax*
+  1. O navegador gera uma chamada do JavaScript que então ativa o XMLHttpRequest.
+  2. Em segundo plano o navegador cria uma requisição HTTP para o servidor.
+  3. O servidor recebe a requisição, busca os dados e envia para o navegador.
+  4. O navegador recebe os dados requisitados que irão aparecer imediatamente na página. Não é necessário recarregar.
+
+
+_Preview antes do inicio da busca_
+![Preview normal](06_Ajax_Type_Ahead/img/preview.png)
+
+
+_Preview depois de colocar alguma letra_
+![Preview normal](06_Ajax_Type_Ahead/img/preview-search.png)
