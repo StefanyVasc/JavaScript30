@@ -135,3 +135,28 @@ _Preview antes do inicio da busca_
 
 _Preview depois de colocar alguma letra_
 ![Preview normal](06_Ajax_Type_Ahead/img/preview-search.png)
+
+
+## Dia 07 - Array Cardio Day 02
+
+> Busca assincrona num array que contém as cidades ou estados, você buscando por cidades ou estados qualquer letra ele já retorna algo.
+
+- Fundamentals
+
+
+### Novos aprendizados com esse projeto
+
+- `Array.prototype`: As instâncias de Array herdam de Array.prototype. Como em todos os construtores, você pode mudar o  protótipo desse construtor para modificar todas as instâncias de Array.
+
+Contudo, a adição de métodos não-padronizados ao objeto array pode causar problemas futuros, seja com seu próprio código, ou na adição de novas funcionalidades ao JavaScript.
+
+O próprio Array.prototype é um Array;
+
+**Métodos de interação:**
+
+Vários métodos tomam como funções de argumento para serem chamados de volta ao processar o array. Quando esses métodos são chamados, o `length` do array é amostrado e qualquer elemento adicionado além deste comprimento (length)  de dentro da função (callback) não é visitado. Outras alterações para o array (Definindo o valor de ou apagando um elemento) pode afetar os resultados da operação se o método visita o elemento alterado posteriormente. Enquanto o comportamento específico destes métodos nestes casos é bem definido, não se deve confiar nisso para não confundir os outros que possoam ler seu código. Em vez disso, deve-se copiar para um novo array para modificá-lo.
+
+  - `.some()`: Retorna true se pelo menos um elemento no array satisfizer a função de teste fornecida.
+  - `.every()`: Retorna true se todos elementos no array satisfizer a função de teste fornecida.
+  - `.find()`: Retorna o valor encontrado no array, se um elemento no array satisfizer a funçào de teste fornecida ou  `undefined` se não for encontrado.
+  - `.findIndex()`: Retorna o índice no array, se um elemento no array satisfizer a função de teste fornecida ou -1 se não for encontrado.
