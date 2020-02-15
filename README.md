@@ -139,7 +139,7 @@ _Preview depois de colocar alguma letra_
 
 ## Dia 07 - Array Cardio Day 02
 
-> Busca assincrona num array que contém as cidades ou estados, você buscando por cidades ou estados qualquer letra ele já retorna algo.
+> Não tem interface gráfica, apenas aplicando alguns métodos do array.prototype
 
 - Fundamentals
 
