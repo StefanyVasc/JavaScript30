@@ -160,3 +160,32 @@ Vários métodos tomam como funções de argumento para serem chamados de volta 
   - `.every()`: Retorna true se todos elementos no array satisfizer a função de teste fornecida.
   - `.find()`: Retorna o valor encontrado no array, se um elemento no array satisfizer a funçào de teste fornecida ou  `undefined` se não for encontrado.
   - `.findIndex()`: Retorna o índice no array, se um elemento no array satisfizer a função de teste fornecida ou -1 se não for encontrado.
+
+
+## Dia 08 - Fun With HTML5 Canvas
+
+> COnstrução de um canvas com o HTML5, interagindo com mouse ou dedos para desenhar
+
+- Fun + experimentals
+
+
+### Novos aprendizados com esse projeto
+
+- tag `<canvas>` A canvas nada mais é do que um espaço onde podemos desenhar elementos específicos, formas geométricas e imagens, por exemplo, através de script (javascript geralmente).
+- Por Javascript podemos acessar métodos da canvas que desenham formas, linhas, caracteres e adicionar imagens.
+- Primeiro de tudo vamos precisar para colocar a tag canvas em algum lugar dentro do nosso HTML, criar uma função JavaScript que acessa a tag canvas, uma vez que a página carrega e depois utilizar o HTML5 Canvas API para desenhar suas visualizações.
+- `.getContext() `retorna um contexto de desenho no canvas, ou null se o contexto identificado não é suportado.
+  - "2d", levando a criação de um objeto CanvasRenderingContext2D representando uma  renderização bidimensional.
+
+- `.innerHeight` Altura (em pixels) da janela de visualização do navegador, incluindo, se renderizado, a barra de rolagem horizontal.
+- `.innerWidth` retorna a largura interna da janela em pixels. Isso inclui a largura da barra de rolagem vertical, se houver uma. SOMENTE LEITURA
+- `.strokeStyle` Define o estilo para os contornos (strokes) das formas.
+- `.lineJoint`  determina a forma usada para unir dois segmentos de linha onde eles se encontram.
+- `.lineCap` determina a forma usada para desenhar os pontos finais das linhas.
+- `.beginPath()` inicia um novo caminho esvaziando a lista de subcaminhos. Chame esse método quando desejar criar um novo caminho.
+- `.moveTo()` inicia um novo subcaminho no ponto especificado pelas coordenadas (x, y) fornecidas.
+- `.lineTo()` adiciona uma linha reta ao subcaminho atual conectando o último ponto do subcaminho às coordenadas especificadas (x, y). Para desenhar o caminho em uma tela, você pode usar os métodos fill () ou stroke ().
+- `.stronks()`  (contornos) do caminho atual ou fornecido com o estilo de traçado atual. Os traços são alinhados ao centro de um caminho; em outras palavras, metade do traçado é desenhado no lado interno e metade no lado externo.
+
+_Preview dos desenhos no canvas_
+![Preview normal](08_Fun_With_HTML5_Canvas/img/preview.png)
