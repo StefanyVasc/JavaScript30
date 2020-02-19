@@ -164,7 +164,7 @@ Vários métodos tomam como funções de argumento para serem chamados de volta 
 
 ## Dia 08 - Fun With HTML5 Canvas
 
-> COnstrução de um canvas com o HTML5, interagindo com mouse ou dedos para desenhar
+> Construção de um canvas com o HTML5, interagindo com mouse ou dedos para desenhar
 
 - Fun + experimentals
 
@@ -189,3 +189,102 @@ Vários métodos tomam como funções de argumento para serem chamados de volta 
 
 _Preview dos desenhos no canvas_
 ![Preview normal](08_Fun_With_HTML5_Canvas/img/preview.png)
+
+## Dia 09 - Dev Tools Domination
+
+> 14 truques que os desenvolvedores precisam saber sobre o dev tools
+
+- Fundamentals
+
+
+### Novos aprendizados com esse projeto
+- regular 1
+  ```javascript 
+      console.log("hello");
+  ```
+
+- interpolated 2
+  ```javascript 
+      console.log("hello i am a %s string!", "👾");
+  ```
+
+- styled 3
+```javascript 
+      console.log("%c i am some great text",
+      "font-size: 30px; 
+      background: red; 
+      text-shadow: 10px 10px 0  blue;");
+  ```
+
+- warning 4
+  ```javascript 
+      console.warn("OH NOO");
+  ```
+
+- error 5
+  ```javascript 
+      console.error("shit!");
+  ```
+
+- info 6
+  ```javascript 
+      console.info("crocodiles eat 3-4 people per year");
+  ```
+
+- testing 7
+  ```javascript 
+      const p = document.querySelector("p");
+      console.assert(p.classList.contains("ouch"), "thats wrong!");
+  ```
+
+- clearing 8 - apaga tudo o que estiver no console
+  ```javascript 
+      console.clear();
+  ```
+
+- viewing DOM elements 9
+  ```javascript 
+      console.dir(p);
+  ```
+
+- grouping together 10 
+  ```javascript      
+      dogs.forEach(dog => {
+        console.group(`${dog.name}`);
+        console.log(`This is ${dog.name}`);
+        console.log(`${dog.name} is ${dog.age} years old`);
+
+        console.groupEnd(`${dog.name}`);
+      });
+  ```
+
+- counting 11
+  ```javascript      
+      console.count("wes");
+      console.count("wes");
+      console.count("Steve");
+      console.count("wes");
+      console.count("Jessie");
+      console.count("Steve");
+  ```
+
+
+- timing 12
+  ```javascript      
+      console.time("fetching data");
+      fetch("https://api.github.com/users/StefanyVasc")
+      .then(data => data.json())
+      .then(data => {
+      console.timeEnd("fetching data");
+      console.log(data);
+      });
+  ```
+
+
+- table 13
+```javascript      
+      console.table(dogs);
+  ```
+
+_Preview dos comandos no console_
+![Preview normal](09_Dev_Tools_Domination/img/preview.png) 
