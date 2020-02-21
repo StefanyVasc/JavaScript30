@@ -288,3 +288,18 @@ _Preview dos desenhos no canvas_
 
 _Preview dos comandos no console_
 ![Preview normal](09_Dev_Tools_Domination/img/preview.png) 
+
+
+
+# Dia 10 - Hold Shift And Check Checkboxes
+
+> Lista contendo checkboxes, onde ao clicar shift todos os checkboxes abaixos são selecionados e ativados
+
+- DOM & Interface
+
+*Preview normal* 
+
+![Preview normal](10_Hold_Shif_And_Check_Checkboxes/img/preview.png) 
+
+*Preview ao clicar no checkbox segurando a tecla shift*
+![Preview ao clicar no checkbox segurando a tecla shift](10_Hold_Shif_And_Check_Checkboxes/img/preview_checked.png) 
