@@ -303,3 +303,25 @@ _Preview dos comandos no console_
 
 *Preview ao clicar no checkbox segurando a tecla shift*
 ![Preview ao clicar no checkbox segurando a tecla shift](10_Hold_Shif_And_Check_Checkboxes/img/preview_checked.png) 
+
+
+## Dia 11 Custom HTML5 Video Player
+
+> Player de video com funcionaidades como play, pause, ajuste de volume, adiantar e retroceder. Muitos desses controles 
+> são sliders controls
+
+- Audio + Video
+
+
+### Novos aprendizados com esse projeto
+
+- tag `<video>`
+  - atributo `controls`
+
+
+_Preview sem mexer nos controles_
+![Preview normal](11_Custom_HTML5_Video_Player/img/preview.png) 
+
+_Preview mexendo nos controles_
+
+![Preview normal](11_Custom_HTML5_Video_Player/img/preview-controls.png) 
