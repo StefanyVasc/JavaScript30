@@ -325,3 +325,23 @@ _Preview sem mexer nos controles_
 _Preview mexendo nos controles_
 
 ![Preview normal](11_Custom_HTML5_Video_Player/img/preview-controls.png) 
+
+
+## Dia 12 Key Sequence Detection
+
+
+> Detecção de teclas  a partir do pressionamento.Salvando as teclas pressionadas num array. Após checar se as teclas WESBOS foram apertas nessa sequência aparece `ding ding` no console e cornified é acionado
+
+- Fundamentals
+
+
+### Novos aprendizados com esse projeto
+
+- Métodos do array
+  - `push()`
+  - `splice()`
+  - `join()`
+  - `includes()`
+
+_Preview ao digitar WESBOS_
+![Preview normal](12_Key_Sequence_Detection/img/preview.png) 
