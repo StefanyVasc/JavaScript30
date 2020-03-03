@@ -345,3 +345,14 @@ _Preview mexendo nos controles_
 
 _Preview ao digitar WESBOS_
 ![Preview normal](12_Key_Sequence_Detection/img/preview.png) 
+
+
+## Dia 13 Slide images in on Scroll page
+
+
+> Ao usar o scroll da página acontece o scroll de algumas imagens na página. As imagens estão hospedadas no Unsplash e são escolhidas aleatoriamente.
+
+- Dom & Interface
+
+
+### Novos aprendizados com esse projeto
