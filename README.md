@@ -355,4 +355,12 @@ _Preview ao digitar WESBOS_
 - Dom & Interface
 
 
+## Dia 14 Object and Array - Reference vs Copy
+
+
+> Como copiar e referenciar arrays sem modificar o conteúdo de dentro
+
+- Fundamentals
+
+
 ### Novos aprendizados com esse projeto
